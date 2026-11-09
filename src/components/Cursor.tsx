@@ -6,7 +6,8 @@ const TRAIL = 7;
 
 /**
  * "Route" cursor (desktop / fine pointer only):
- *  - a small yellow bus that turns towards the direction of travel and leans with vertical speed
+ *  - a small red bus that turns towards the direction of travel and leans with vertical speed
+ *    (turns yellow over a red background so it stays visible)
  *  - a trail of "route dots" that snake behind it
  *  - over links / buttons it becomes a round bus-stop sign (with a label from data-cursor)
  *  - a click "honks" (expanding ring)
@@ -37,6 +38,27 @@ export default function Cursor() {
     let t = 0;
 
     const setBus = gsap.quickSetter(busEl, 'css');
+    let sampleAcc = 99;
+    let onRed = false;
+
+    // the bus is red; over a red surface it switches to yellow
+    const backdropIsRed = (x: number, y: number) => {
+      let node = document.elementFromPoint(x, y) as HTMLElement | null;
+      while (node && node !== document.documentElement) {
+        const m = getComputedStyle(node).backgroundColor.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*([\d.]+))?\)/);
+        if (m) {
+          const alpha = m[4] === undefined ? 1 : parseFloat(m[4]);
+          if (alpha > 0.45) {
+            const r = +m[1];
+            const g = +m[2];
+            const b = +m[3];
+            return r > 150 && g < 120 && b < 130 && r > g + 70 && r > b + 60;
+          }
+        }
+        node = node.parentElement;
+      }
+      return false;
+    };
 
     const tick = (_time: number, deltaTime: number) => {
       const dt = Math.min(deltaTime / 16.67, 3);
@@ -57,6 +79,16 @@ export default function Cursor() {
       const lean = Math.max(-16, Math.min(16, vy * 1.1)) * faceTarget;
       const bob = calm ? 0 : Math.sin(t * 0.9) * Math.min(1.6, speed * 0.25);
       setBus({ scaleX: face, rotation: lean, y: bob });
+
+      sampleAcc += dt;
+      if (seen && sampleAcc > 6) {
+        sampleAcc = 0;
+        const red = backdropIsRed(target.x, target.y);
+        if (red !== onRed) {
+          onRed = red;
+          el.classList.toggle('is-on-red', red);
+        }
+      }
 
       if (calm) return;
       let lx = pos.x;
@@ -139,7 +171,7 @@ export default function Cursor() {
       </div>
       <div className="cursor__bus-wrap">
         <div className="cursor__bus" ref={bus}>
-          <BusSvg body="#ffc93c" glass="#fff3e1" label="" wheelsSpin />
+          <BusSvg body="currentColor" glass="#fff3e1" label="" wheelsSpin />
         </div>
       </div>
     </div>

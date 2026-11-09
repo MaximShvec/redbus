@@ -393,7 +393,12 @@ body::after {
   }
   .cursor__bus {
     width: 100%;
+    color: var(--red);
     will-change: transform;
+    transition: color 0.25s;
+  }
+  .cursor.is-on-red .cursor__bus {
+    color: var(--butter);
   }
   .cursor__bus svg {
     display: block;
