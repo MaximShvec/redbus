@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.log
+.vite
+.vercel
+
+# raw photos (~57 MB) — restore with research/download-originals.mjs, optimized copies live in public/img
+assets-src

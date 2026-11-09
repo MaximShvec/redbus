@@ -1,0 +1,792 @@
+{
+  "pizzas": {
+    "20": {
+      "id": 20,
+      "img": "/uploads/resized/thumbnail_127_redbus-web-57-20180412051951.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 5.5
+        },
+        {
+          "size": 30,
+          "price": 9.5
+        },
+        {
+          "size": 45,
+          "price": 16.5
+        }
+      ],
+      "slug": {
+        "ru": "sirnaya",
+        "lv": "siera",
+        "en": "cheese"
+      },
+      "name": {
+        "ru": "СЫРНАЯ",
+        "lv": "SIERA",
+        "en": "CHEESE"
+      },
+      "desc": {
+        "ru": "соус, экстра сыр",
+        "lv": "mērce, extra siers",
+        "en": "sauce, extra cheese"
+      }
+    },
+    "21": {
+      "id": 21,
+      "img": "/uploads/resized/thumbnail_122_redbus-web-16-20180412051609.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 6.1
+        },
+        {
+          "size": 30,
+          "price": 11.1
+        },
+        {
+          "size": 45,
+          "price": 18.5
+        }
+      ],
+      "slug": {
+        "ru": "s-kolbasoi",
+        "lv": "ar-desu",
+        "en": "sausage"
+      },
+      "name": {
+        "ru": "С КОЛБАСОЙ",
+        "lv": "AR DESU",
+        "en": "SAUSAGE"
+      },
+      "desc": {
+        "ru": "соус, копченая колбоса, сыр",
+        "lv": "mērce, dūmdesa, siers",
+        "en": "sauce, smoked sausage, cheese"
+      }
+    },
+    "22": {
+      "id": 22,
+      "img": "/uploads/resized/thumbnail_133_redbus-web-66-20180413092522.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "slug": {
+        "ru": "4d-cheese",
+        "lv": "4d-cheese",
+        "en": "4d-cheese"
+      },
+      "name": {
+        "ru": "4D CHEESE",
+        "lv": "4D CHEESE",
+        "en": "4D CHEESE"
+      },
+      "desc": {
+        "ru": "Голландский сыр, сыр \"дор блю\", сыр \"моцарелла\", парито, груша",
+        "lv": "Holland, Dor blue, Mozzarella, Parito, bumbieris",
+        "en": "Голландский сыр, сыр \"дор блю\", сыр \"моцарелла\", парито, груша"
+      }
+    },
+    "23": {
+      "id": 23,
+      "img": "/uploads/resized/thumbnail_126_redbus-web-12-20180412051434.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "slug": {
+        "ru": "gribnaya",
+        "lv": "senu",
+        "en": "mushroom"
+      },
+      "name": {
+        "ru": "ГРИБНАЯ",
+        "lv": "SĒŅU",
+        "en": "MUSHROOM"
+      },
+      "desc": {
+        "ru": "соус, ветчина, лук, паприка, сыр, грибы",
+        "lv": "mērce, šķiņķis, sīpoli, paprika, siers, sēnes",
+        "en": "sauce, ham, onions, paprika, cheese, mushrooms"
+      }
+    },
+    "24": {
+      "id": 24,
+      "img": "/uploads/resized/thumbnail_135_redbus-web-3-20180413091632.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 6.1
+        },
+        {
+          "size": 30,
+          "price": 11.1
+        },
+        {
+          "size": 45,
+          "price": 18.5
+        }
+      ],
+      "slug": {
+        "ru": "gavaiskaya",
+        "lv": "hawaii",
+        "en": "hawaiian"
+      },
+      "name": {
+        "ru": "ГАВАЙСКАЯ",
+        "lv": "HAWAII",
+        "en": "HAWAIIAN"
+      },
+      "desc": {
+        "ru": "соус, паприка, сыр, ветчина, ананасы",
+        "lv": "mērce, paprika, siers, šķiņķis, ananāsi",
+        "en": "sauce, paprika, cheese, ham, pineapple"
+      }
+    },
+    "25": {
+      "id": 25,
+      "img": "/uploads/resized/thumbnail_130_redbus-web-7-20180412051357.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "slug": {
+        "ru": "vegetarianskaya",
+        "lv": "vegetara",
+        "en": "vegetarian"
+      },
+      "name": {
+        "ru": "ВЕГЕТАРИАНСКАЯ",
+        "lv": "VEĢETĀRĀ",
+        "en": "VEGETARIAN"
+      },
+      "desc": {
+        "ru": "соус, помидоры, лук, паприка, грибы, оливки, сыр",
+        "lv": "mērce, tomāti, sīpoli, paprika, sēnes, olīves, siers",
+        "en": "sauce, tomatoes, onions, paprika, mushrooms, olives, cheese"
+      }
+    },
+    "26": {
+      "id": 26,
+      "img": "/uploads/resized/thumbnail_112_redbus-web-25-20180412095043.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "slug": {
+        "ru": "goryachaya-svinya",
+        "lv": "karsta-cuka",
+        "en": "hot-pork"
+      },
+      "name": {
+        "ru": "ГОРЯЧАЯ СВИНЬЯ",
+        "lv": "KARSTĀ CŪKA",
+        "en": "HOT PORK"
+      },
+      "desc": {
+        "ru": "соус, помидоры, лук, сыр, бекон, Jalapeno, зеленый лук",
+        "lv": "Jalapeno, lociņi, bekons, siers, tomāti, sīpoli, mērce",
+        "en": "sauce, tomatoes, onions, cheese, bacon, Jalapeno, spring onion"
+      }
+    },
+    "27": {
+      "id": 27,
+      "img": "/uploads/resized/thumbnail_128_redbus-web-31-20180412051701.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "slug": {
+        "ru": "subaru",
+        "lv": "subaru",
+        "en": "subaru"
+      },
+      "name": {
+        "ru": "SUBARU",
+        "lv": "SUBARU",
+        "en": "SUBARU"
+      },
+      "desc": {
+        "ru": "майонез с хреном, помидоры, лук, молотое мясо, сыр, бекон, маринованные огурцы",
+        "lv": "mārrutku-majonēzes mērce, tomāti, sīpoli, maltā gaļa, siers, bekons, marinēti gurķi",
+        "en": "horseradish-mayonnaise souce, tomatoes, onions, minced meat, cheese, bacon, pickles"
+      }
+    },
+    "28": {
+      "id": 28,
+      "img": "/uploads/resized/thumbnail_125_redbus-web-44-20180412051812.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 8.5
+        },
+        {
+          "size": 30,
+          "price": 14.5
+        },
+        {
+          "size": 45,
+          "price": 23.5
+        }
+      ],
+      "slug": {
+        "ru": "mr-bean",
+        "lv": "mr-bean",
+        "en": "mr-bean"
+      },
+      "name": {
+        "ru": "MR. BEAN",
+        "lv": "MR. BEAN",
+        "en": "MR. BEAN"
+      },
+      "desc": {
+        "ru": "соус, халапеньо, лук, томаты, бобы, молотое мясо, бекон, сыр",
+        "lv": "mērce, jalapeno, sīpoli, tomāti, pupiņas, maltā gaļa, bekons, siers",
+        "en": "sauce, jalapeno, onion, tomatoes, beans, minced meat, bacon, cheese"
+      }
+    },
+    "29": {
+      "id": 29,
+      "img": "/uploads/resized/thumbnail_136_redbus-web-20-20180413091841.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 8.5
+        },
+        {
+          "size": 30,
+          "price": 14.5
+        },
+        {
+          "size": 45,
+          "price": 23.5
+        }
+      ],
+      "slug": {
+        "ru": "vkusnaya",
+        "lv": "garsiga",
+        "en": "delicious"
+      },
+      "name": {
+        "ru": "ВКУСНАЯ",
+        "lv": "GARŠĪGĀ",
+        "en": "DELICIOUS"
+      },
+      "desc": {
+        "ru": "соус, копченая колбаса, ветчина, лук, помидоры, паприка, грибы, сыр",
+        "lv": "mērce, dūmdesa, šķiņķis, sīpoli, tomāti, paprika, sēnes, siers",
+        "en": "sauce, smoked sausage, ham, onions, tomatoes, paprika, mushrooms, cheese"
+      }
+    },
+    "30": {
+      "id": 30,
+      "img": "/uploads/resized/thumbnail_137_redbus-web-49-20180413092249.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 8.5
+        },
+        {
+          "size": 30,
+          "price": 14.5
+        },
+        {
+          "size": 45,
+          "price": 23.5
+        }
+      ],
+      "slug": {
+        "ru": "kurinaya",
+        "lv": "vistas",
+        "en": "chicken"
+      },
+      "name": {
+        "ru": "КУРИНАЯ",
+        "lv": "VISTAS",
+        "en": "CHICKEN"
+      },
+      "desc": {
+        "ru": "соус, помидоры, салями, куриное филе, экстра сыр",
+        "lv": "mērce, tomāti, dūmdesa, vistas fileja, siers",
+        "en": "souce, tomatoes, pepperoni, chicken fillet, extra cheese"
+      }
+    },
+    "31": {
+      "id": 31,
+      "img": "/uploads/resized/thumbnail_129_redbus-web-73-20180412052142.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 9.5
+        },
+        {
+          "size": 30,
+          "price": 15.5
+        },
+        {
+          "size": 45,
+          "price": 25.5
+        }
+      ],
+      "slug": {
+        "ru": "s-tuntsom",
+        "lv": "tunca",
+        "en": "tuna"
+      },
+      "name": {
+        "ru": "С ТУНЦОМ",
+        "lv": "TUNČA",
+        "en": "TUNA"
+      },
+      "desc": {
+        "ru": "майонез с хреном, лук, помидоры, паприка, тунец, сыр",
+        "lv": "mārrutku-majonēzes mērce, sīpoli, tomati, paprika, tuncis, siers",
+        "en": "horseradish-mayonnaise souce, onions, tomatoes, paprika, tuna, cheese"
+      }
+    },
+    "32": {
+      "id": 32,
+      "img": "/uploads/resized/thumbnail_123_redbus-web-59-20180412052022.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 9.5
+        },
+        {
+          "size": 30,
+          "price": 15.5
+        },
+        {
+          "size": 45,
+          "price": 25.5
+        }
+      ],
+      "slug": {
+        "ru": "s-darami-morya",
+        "lv": "juras-veltes",
+        "en": "seafood"
+      },
+      "name": {
+        "ru": "С ДАРАМИ МОРЯ",
+        "lv": "JŪRAS VELTES",
+        "en": "SEAFOOD"
+      },
+      "desc": {
+        "ru": "соус, помидоры, лук, моллюски, кальмары, осьминоги, сыр, креветки",
+        "lv": "mērce, tomāti, sīpoli, mīdijas, kalmāri, astoņkāji, siers, garneles",
+        "en": "souce, tomatoes, onions, mussels, squid, octopus, cheese, shrimps"
+      }
+    },
+    "33": {
+      "id": 33,
+      "img": "/uploads/resized/thumbnail_124_redbus-web-88-20180412052452.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 9.5
+        },
+        {
+          "size": 30,
+          "price": 15.5
+        },
+        {
+          "size": 45,
+          "price": 25.5
+        }
+      ],
+      "slug": {
+        "ru": "s-lososem",
+        "lv": "lasa",
+        "en": "salmon"
+      },
+      "name": {
+        "ru": "С ЛОСОСЕМ",
+        "lv": "LAŠA",
+        "en": "SALMON"
+      },
+      "desc": {
+        "ru": "майонез, лук, помидоры, сыр, лосос, лимон",
+        "lv": "majonēzes mērce, sīpoli, tomāti, siers, lasis, citrons",
+        "en": "mayonnaise souce, onions, tomatoes, cheese, salmon, lemon"
+      }
+    },
+    "34": {
+      "id": 34,
+      "img": "/uploads/resized/thumbnail_134_redbus-web-41-20180413091954.jpg",
+      "sizes": [
+        {
+          "size": 30,
+          "price": 16.5
+        }
+      ],
+      "slug": {
+        "ru": "dvuhetazhnaya",
+        "lv": "divstav",
+        "en": "two-floors"
+      },
+      "name": {
+        "ru": "ДВУХЭТАЖНАЯ",
+        "lv": "DIVSTĀV",
+        "en": "TWO FLOORS"
+      },
+      "desc": {
+        "ru": "соус, копченая колбаса, сыр",
+        "lv": "mērce, dūmdesa, siers",
+        "en": "sauce, smoked sausage, cheese"
+      }
+    },
+    "35": {
+      "id": 35,
+      "img": "/uploads/resized/thumbnail_138_redbus-web-79-20180413092144.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 9.5
+        },
+        {
+          "size": 30,
+          "price": 15.5
+        },
+        {
+          "size": 45,
+          "price": 25.5
+        }
+      ],
+      "slug": {
+        "ru": "s-krolikom",
+        "lv": "trusa",
+        "en": "rabbit"
+      },
+      "name": {
+        "ru": "С КРОЛИКОМ",
+        "lv": "TRUŠA",
+        "en": "RABBIT"
+      },
+      "desc": {
+        "ru": "Mozzarella holand, мясо кролика, помидоры, лук, йогуртовый соус",
+        "lv": "Mozzarella holand, truša gaļa, tomāti, sīpoli, jogurta mērce",
+        "en": "Mozzarella holand, rabbit meat, tomatoes, onions, yogurt sauce"
+      }
+    },
+    "38": {
+      "id": 38,
+      "img": "/uploads/resized/thumbnail_355_redbus-web-53-20180413092415.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 8.5
+        },
+        {
+          "size": 30,
+          "price": 14.5
+        },
+        {
+          "size": 45,
+          "price": 23.5
+        }
+      ],
+      "slug": {
+        "ru": "kurinaya-osobaya",
+        "lv": "ipasa-vista",
+        "en": "chicken-special"
+      },
+      "name": {
+        "ru": "КУРИНАЯ ОСОБАЯ",
+        "lv": "ĪPAŠĀ VISTA",
+        "en": "CHICKEN SPECIAL"
+      },
+      "desc": {
+        "ru": "Моцарелла, дор блю, парито, курица, майонез",
+        "lv": "Mocarella, dor blu, parito, vista, majonēze",
+        "en": "Mocarella, dor blu, parito, vista, mayonnaise"
+      }
+    },
+    "117": {
+      "id": 117,
+      "img": "/uploads/resized/thumbnail_367_vegana pica-20230319123538.jpeg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "slug": {
+        "ru": "veganskaya",
+        "lv": "vegana",
+        "en": "vegan"
+      },
+      "name": {
+        "ru": "Веганская",
+        "lv": "Vegānā",
+        "en": "Vegan"
+      },
+      "desc": {
+        "ru": "Веганский сыр (моарелла, чедар), три овоща на ваш выбор, соус",
+        "lv": "Sastāvdaļas - Vegānais siers (mozarella, cheddar), trīs dārzeņi pēc izvēles, mērce",
+        "en": "Vegan cheese (mozarella, cheddar), three vegetables of your choise, sauce"
+      }
+    }
+  },
+  "drinks": {
+    "36": {
+      "id": 36,
+      "img": "/uploads/resized/thumbnail_202_Frame (24)-20190111115557.png",
+      "price": 2.3,
+      "name": {
+        "ru": "Coca-Cola 0.3l",
+        "lv": "Coca-Cola 0.3l",
+        "en": "Coca-Cola 0.3l"
+      }
+    },
+    "39": {
+      "id": 39,
+      "img": "/uploads/resized/thumbnail_331_Image (11)-20201207040426.jpg",
+      "price": 2.9,
+      "name": {
+        "ru": "Coca-Cola 0.5l",
+        "lv": "Coca-Cola 0.5l",
+        "en": "Coca-Cola 0.5l"
+      }
+    },
+    "40": {
+      "id": 40,
+      "img": "/uploads/resized/thumbnail_207_Frame (21)-20190111115556.png",
+      "price": 3.5,
+      "name": {
+        "ru": "Coca-Cola 1.5l",
+        "lv": "Coca-Cola 1.5l",
+        "en": "Coca-Cola 1.5l"
+      }
+    },
+    "41": {
+      "id": 41,
+      "img": "/uploads/resized/thumbnail_188_Logo-schweppes-20190110053513.png",
+      "price": 2.3,
+      "name": {
+        "ru": "Schweppes -russian,tonic 250ml",
+        "lv": "Schweppes-russian, tonic 250ml",
+        "en": "Schweppes - mandarin, tonic 0,33l"
+      }
+    },
+    "42": {
+      "id": 42,
+      "img": "/uploads/resized/thumbnail_178_Frame (1)-20190110051451.png",
+      "price": 2,
+      "name": {
+        "ru": "Fuze tea lemon 0,5l Fuze tea lemon 0,5l",
+        "lv": "Fuze tea lemon 0,5l Fuze tea lemon 0,5l",
+        "en": "Fuze tea lemon 0,5l Fuze tea lemon 0,5l"
+      }
+    },
+    "43": {
+      "id": 43,
+      "img": "/uploads/resized/thumbnail_182_Frame (3)-20190110052109.png",
+      "price": 1.7,
+      "name": {
+        "ru": "Вода 0,5l - газированная, негазированная",
+        "lv": "Ūdens 0,5l - gāzēts , negāzēts",
+        "en": "Water 0,5l - carbonated, still"
+      }
+    },
+    "47": {
+      "id": 47,
+      "img": "/uploads/resized/thumbnail_184_Frame (6)-20190110052516.png",
+      "price": 3.5,
+      "name": {
+        "ru": "Сок Cido 1l (разные)",
+        "lv": "Sulas Cido 1l (dažādas)",
+        "en": "Juice Cido 1l (different)"
+      }
+    },
+    "49": {
+      "id": 49,
+      "img": "/uploads/resized/thumbnail_203_Frame (22)-20190111115556.png",
+      "price": 2.3,
+      "name": {
+        "ru": "Fanta 0.3 l",
+        "lv": "Fanta 0.3 l",
+        "en": "Fanta 0.3 l"
+      }
+    },
+    "50": {
+      "id": 50,
+      "img": "/uploads/resized/thumbnail_205_Frame (23)-20190111115557.png",
+      "price": 2.3,
+      "name": {
+        "ru": "Sprite 0.3 l",
+        "lv": "Sprite 0.3 l",
+        "en": "Sprite 0.3 l"
+      }
+    },
+    "51": {
+      "id": 51,
+      "img": "/uploads/resized/thumbnail_197_Frame (13)-20190111112941.png",
+      "price": 2.9,
+      "name": {
+        "ru": "Fanta 0.5l",
+        "lv": "Fanta 0.5l",
+        "en": "Fanta 0.5l"
+      }
+    },
+    "52": {
+      "id": 52,
+      "img": "/uploads/resized/thumbnail_196_Frame (12)-20190111112941.png",
+      "price": 2.9,
+      "name": {
+        "ru": "Sprite 0.5l",
+        "lv": "Sprite 0.5l",
+        "en": "Sprite 0.5l"
+      }
+    },
+    "53": {
+      "id": 53,
+      "img": "/uploads/resized/thumbnail_198_Frame (15)-20190111113624.png",
+      "price": 2,
+      "name": {
+        "ru": "Fuze tea peach 0,5l Fuze tea peach 0,5l",
+        "lv": "Fuze tea peach 0,5l Fuze tea peach 0,5l",
+        "en": "Fuze tea peach 0,5l Fuze tea peach 0,5l"
+      }
+    },
+    "57": {
+      "id": 57,
+      "img": "/uploads/resized/thumbnail_204_Frame (20)-20190111115556.png",
+      "price": 3.5,
+      "name": {
+        "ru": "Fanta 1.5l",
+        "lv": "Fanta 1.5l",
+        "en": "Fanta 1.5l"
+      }
+    },
+    "58": {
+      "id": 58,
+      "img": "/uploads/resized/thumbnail_206_Frame (19)-20190111115556.png",
+      "price": 3.5,
+      "name": {
+        "ru": "Sprite 1.5l",
+        "lv": "Sprite 1.5l",
+        "en": "Sprite 1.5l"
+      }
+    },
+    "62": {
+      "id": 62,
+      "img": "/uploads/resized/thumbnail_275_unnamed (5)-20200331062122.jpg",
+      "price": 3,
+      "name": {
+        "ru": "Monster Energy",
+        "lv": "Monster Energy",
+        "en": "Monster Energy Drink"
+      }
+    },
+    "63": {
+      "id": 63,
+      "img": "/uploads/resized/thumbnail_246_ultra-20200331024838.png",
+      "price": 3,
+      "name": {
+        "ru": "Monster Energy Ultra Zero Sugar Monster Energy Ultra Zero Sugar",
+        "lv": "Monster Energy Ultra Zero Sugar Monster Energy Ultra Zero Sugar",
+        "en": "Monster Energy Ultra Zero Sugar"
+      }
+    },
+    "65": {
+      "id": 65,
+      "img": "/uploads/resized/thumbnail_256_IMG-1292-20200331033502.jpg",
+      "price": 3,
+      "name": {
+        "ru": "Monster Energy Punch",
+        "lv": "Monster Energy Punch",
+        "en": "Monster Energy Punch"
+      }
+    },
+    "66": {
+      "id": 66,
+      "img": "/uploads/resized/thumbnail_257_IMG-1293-20200331033503.jpg",
+      "price": 3,
+      "name": {
+        "ru": "Monster Energy Juice Mango Loco Monster Energy Juice Mango Loco",
+        "lv": "Monster Energy Juice Mango Loco Monster Energy Juice Mango Loco",
+        "en": "Monster Energy Juice Mango Loco Monster Energy Juice Mango Loco"
+      }
+    },
+    "100": {
+      "id": 100,
+      "img": "/uploads/resized/thumbnail_332_Frame (2)-20190110051850.png",
+      "price": 2.9,
+      "name": {
+        "ru": "Coca-Cola Zero 0,5l",
+        "lv": "Coca-Cola Zero 0,5l",
+        "en": "Coca-Cola Zero 0,5l"
+      }
+    },
+    "112": {
+      "id": 112,
+      "img": "/uploads/resized/thumbnail_356_kvass pinte-20220104035742.jpg",
+      "price": 2.5,
+      "name": {
+        "ru": "Квас ULMAŅLAIKU 0,568L",
+        "lv": "Kvass ULMAŅLAIKU 0,568L bundžā",
+        "en": "Kvass ULMAŅLAIKU 0,568L can"
+      }
+    }
+  }
+}

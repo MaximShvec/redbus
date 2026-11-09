@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#e4202b" />
+    <title>RedBus.lv — Next stop: pizza · Пицца в Юрмале и Риге</title>
+    <meta
+      name="description"
+      content="RedBus.lv — пиццерия с красным автобусом в Юрмале и Риге. 18 видов пиццы, доставка от 1 €, работаем до 3:00. Next stop: pizza."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RedBus.lv" />
+    <meta property="og:title" content="RedBus.lv — Next stop: pizza" />
+    <meta
+      property="og:description"
+      content="Пицца с кроликом, горячая свинья и веганская — печём в Юрмале и Риге с 2008 года. Доставка от 1 €."
+    />
+    <meta property="og:image" content="/og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preload" as="image" href="/img/hero-pizza.webp" type="image/webp" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "RedBus.lv",
+        "servesCuisine": "Pizza",
+        "telephone": "+37122025656",
+        "email": "info@redbus.lv",
+        "url": "https://redbus.lv",
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Tirgoņu iela 21",
+          "addressLocality": "Jūrmala",
+          "addressCountry": "LV"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"],
+            "opens": "11:00",
+            "closes": "00:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Friday", "Saturday"],
+            "opens": "11:00",
+            "closes": "03:00"
+          }
+        ],
+        "sameAs": ["https://www.facebook.com/RedBus.lv", "https://www.instagram.com/redbus.lv_pizza/"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

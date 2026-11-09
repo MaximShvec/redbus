@@ -1,0 +1,574 @@
+{
+  "pizzas": [
+    {
+      "id": 117,
+      "slug": "veganskaya",
+      "name": "Веганская",
+      "desc": "Веганский сыр (моарелла, чедар), три овоща на ваш выбор, соус",
+      "img": "/uploads/resized/thumbnail_367_vegana pica-20230319123538.jpeg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "price": 12.5
+    },
+    {
+      "id": 20,
+      "slug": "sirnaya",
+      "name": "СЫРНАЯ",
+      "desc": "соус, экстра сыр",
+      "img": "/uploads/resized/thumbnail_127_redbus-web-57-20180412051951.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 5.5
+        },
+        {
+          "size": 30,
+          "price": 9.5
+        },
+        {
+          "size": 45,
+          "price": 16.5
+        }
+      ],
+      "price": 9.5
+    },
+    {
+      "id": 24,
+      "slug": "gavaiskaya",
+      "name": "ГАВАЙСКАЯ",
+      "desc": "соус, паприка, сыр, ветчина, ананасы",
+      "img": "/uploads/resized/thumbnail_135_redbus-web-3-20180413091632.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 6.1
+        },
+        {
+          "size": 30,
+          "price": 11.1
+        },
+        {
+          "size": 45,
+          "price": 18.5
+        }
+      ],
+      "price": 11.1
+    },
+    {
+      "id": 21,
+      "slug": "s-kolbasoi",
+      "name": "С КОЛБАСОЙ",
+      "desc": "соус, копченая колбоса, сыр",
+      "img": "/uploads/resized/thumbnail_122_redbus-web-16-20180412051609.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 6.1
+        },
+        {
+          "size": 30,
+          "price": 11.1
+        },
+        {
+          "size": 45,
+          "price": 18.5
+        }
+      ],
+      "price": 11.1
+    },
+    {
+      "id": 25,
+      "slug": "vegetarianskaya",
+      "name": "ВЕГЕТАРИАНСКАЯ",
+      "desc": "соус, помидоры, лук, паприка, грибы, оливки, сыр",
+      "img": "/uploads/resized/thumbnail_130_redbus-web-7-20180412051357.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "price": 12.5
+    },
+    {
+      "id": 22,
+      "slug": "4d-cheese",
+      "name": "4D CHEESE",
+      "desc": "Голландский сыр, сыр \"дор блю\", сыр \"моцарелла\", парито, груша",
+      "img": "/uploads/resized/thumbnail_133_redbus-web-66-20180413092522.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "price": 12.5
+    },
+    {
+      "id": 26,
+      "slug": "goryachaya-svinya",
+      "name": "ГОРЯЧАЯ СВИНЬЯ",
+      "desc": "соус, помидоры, лук, сыр, бекон, Jalapeno, зеленый лук",
+      "img": "/uploads/resized/thumbnail_112_redbus-web-25-20180412095043.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "price": 12.5
+    },
+    {
+      "id": 23,
+      "slug": "gribnaya",
+      "name": "ГРИБНАЯ",
+      "desc": "соус, ветчина, лук, паприка, сыр, грибы",
+      "img": "/uploads/resized/thumbnail_126_redbus-web-12-20180412051434.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "price": 12.5
+    },
+    {
+      "id": 27,
+      "slug": "subaru",
+      "name": "SUBARU",
+      "desc": "майонез с хреном, помидоры, лук, молотое мясо, сыр, бекон, маринованные огурцы",
+      "img": "/uploads/resized/thumbnail_128_redbus-web-31-20180412051701.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 7.5
+        },
+        {
+          "size": 30,
+          "price": 12.5
+        },
+        {
+          "size": 45,
+          "price": 20.5
+        }
+      ],
+      "price": 12.5
+    },
+    {
+      "id": 28,
+      "slug": "mr-bean",
+      "name": "MR. BEAN",
+      "desc": "соус, халапеньо, лук, томаты, бобы, молотое мясо, бекон, сыр",
+      "img": "/uploads/resized/thumbnail_125_redbus-web-44-20180412051812.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 8.5
+        },
+        {
+          "size": 30,
+          "price": 14.5
+        },
+        {
+          "size": 45,
+          "price": 23.5
+        }
+      ],
+      "price": 14.5
+    },
+    {
+      "id": 38,
+      "slug": "kurinaya-osobaya",
+      "name": "КУРИНАЯ ОСОБАЯ",
+      "desc": "Моцарелла, дор блю, парито, курица, майонез",
+      "img": "/uploads/resized/thumbnail_355_redbus-web-53-20180413092415.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 8.5
+        },
+        {
+          "size": 30,
+          "price": 14.5
+        },
+        {
+          "size": 45,
+          "price": 23.5
+        }
+      ],
+      "price": 14.5
+    },
+    {
+      "id": 29,
+      "slug": "vkusnaya",
+      "name": "ВКУСНАЯ",
+      "desc": "соус, копченая колбаса, ветчина, лук, помидоры, паприка, грибы, сыр",
+      "img": "/uploads/resized/thumbnail_136_redbus-web-20-20180413091841.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 8.5
+        },
+        {
+          "size": 30,
+          "price": 14.5
+        },
+        {
+          "size": 45,
+          "price": 23.5
+        }
+      ],
+      "price": 14.5
+    },
+    {
+      "id": 30,
+      "slug": "kurinaya",
+      "name": "КУРИНАЯ",
+      "desc": "соус, помидоры, салями, куриное филе, экстра сыр",
+      "img": "/uploads/resized/thumbnail_137_redbus-web-49-20180413092249.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 8.5
+        },
+        {
+          "size": 30,
+          "price": 14.5
+        },
+        {
+          "size": 45,
+          "price": 23.5
+        }
+      ],
+      "price": 14.5
+    },
+    {
+      "id": 32,
+      "slug": "s-darami-morya",
+      "name": "С ДАРАМИ МОРЯ",
+      "desc": "соус, помидоры, лук, моллюски, кальмары, осьминоги, сыр, креветки",
+      "img": "/uploads/resized/thumbnail_123_redbus-web-59-20180412052022.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 9.5
+        },
+        {
+          "size": 30,
+          "price": 15.5
+        },
+        {
+          "size": 45,
+          "price": 25.5
+        }
+      ],
+      "price": 15.5
+    },
+    {
+      "id": 33,
+      "slug": "s-lososem",
+      "name": "С ЛОСОСЕМ",
+      "desc": "майонез, лук, помидоры, сыр, лосос, лимон",
+      "img": "/uploads/resized/thumbnail_124_redbus-web-88-20180412052452.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 9.5
+        },
+        {
+          "size": 30,
+          "price": 15.5
+        },
+        {
+          "size": 45,
+          "price": 25.5
+        }
+      ],
+      "price": 15.5
+    },
+    {
+      "id": 31,
+      "slug": "s-tuntsom",
+      "name": "С ТУНЦОМ",
+      "desc": "майонез с хреном, лук, помидоры, паприка, тунец, сыр",
+      "img": "/uploads/resized/thumbnail_129_redbus-web-73-20180412052142.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 9.5
+        },
+        {
+          "size": 30,
+          "price": 15.5
+        },
+        {
+          "size": 45,
+          "price": 25.5
+        }
+      ],
+      "price": 15.5
+    },
+    {
+      "id": 35,
+      "slug": "s-krolikom",
+      "name": "С КРОЛИКОМ",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_138_redbus-web-79-20180413092144.jpg",
+      "sizes": [
+        {
+          "size": 20,
+          "price": 9.5
+        },
+        {
+          "size": 30,
+          "price": 15.5
+        },
+        {
+          "size": 45,
+          "price": 25.5
+        }
+      ],
+      "price": 15.5
+    },
+    {
+      "id": 34,
+      "slug": "dvuhetazhnaya",
+      "name": "ДВУХЭТАЖНАЯ",
+      "desc": "соус, копченая колбаса, сыр",
+      "img": "/uploads/resized/thumbnail_134_redbus-web-41-20180413091954.jpg",
+      "sizes": [
+        {
+          "size": 30,
+          "price": 16.5
+        }
+      ],
+      "price": 16.5
+    }
+  ],
+  "drinks": [
+    {
+      "id": 43,
+      "slug": null,
+      "name": "Вода 0,5l - газированная, негазированная",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_182_Frame (3)-20190110052109.png",
+      "sizes": [],
+      "price": 1.7
+    },
+    {
+      "id": 53,
+      "slug": null,
+      "name": "Fuze tea peach 0,5l Fuze tea peach 0,5l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_198_Frame (15)-20190111113624.png",
+      "sizes": [],
+      "price": 2
+    },
+    {
+      "id": 42,
+      "slug": null,
+      "name": "Fuze tea lemon 0,5l Fuze tea lemon 0,5l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_178_Frame (1)-20190110051451.png",
+      "sizes": [],
+      "price": 2
+    },
+    {
+      "id": 41,
+      "slug": null,
+      "name": "Schweppes -russian,tonic 250ml",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_188_Logo-schweppes-20190110053513.png",
+      "sizes": [],
+      "price": 2.3
+    },
+    {
+      "id": 49,
+      "slug": null,
+      "name": "Fanta 0.3 l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_203_Frame (22)-20190111115556.png",
+      "sizes": [],
+      "price": 2.3
+    },
+    {
+      "id": 36,
+      "slug": null,
+      "name": "Coca-Cola 0.3l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_202_Frame (24)-20190111115557.png",
+      "sizes": [],
+      "price": 2.3
+    },
+    {
+      "id": 50,
+      "slug": null,
+      "name": "Sprite 0.3 l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_205_Frame (23)-20190111115557.png",
+      "sizes": [],
+      "price": 2.3
+    },
+    {
+      "id": 112,
+      "slug": null,
+      "name": "Квас ULMAŅLAIKU 0,568L",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_356_kvass pinte-20220104035742.jpg",
+      "sizes": [],
+      "price": 2.5
+    },
+    {
+      "id": 39,
+      "slug": null,
+      "name": "Coca-Cola 0.5l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_331_Image (11)-20201207040426.jpg",
+      "sizes": [],
+      "price": 2.9
+    },
+    {
+      "id": 51,
+      "slug": null,
+      "name": "Fanta 0.5l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_197_Frame (13)-20190111112941.png",
+      "sizes": [],
+      "price": 2.9
+    },
+    {
+      "id": 52,
+      "slug": null,
+      "name": "Sprite 0.5l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_196_Frame (12)-20190111112941.png",
+      "sizes": [],
+      "price": 2.9
+    },
+    {
+      "id": 100,
+      "slug": null,
+      "name": "Coca-Cola Zero 0,5l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_332_Frame (2)-20190110051850.png",
+      "sizes": [],
+      "price": 2.9
+    },
+    {
+      "id": 63,
+      "slug": null,
+      "name": "Monster Energy Ultra Zero Sugar Monster Energy Ultra Zero Sugar",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_246_ultra-20200331024838.png",
+      "sizes": [],
+      "price": 3
+    },
+    {
+      "id": 65,
+      "slug": null,
+      "name": "Monster Energy Punch",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_256_IMG-1292-20200331033502.jpg",
+      "sizes": [],
+      "price": 3
+    },
+    {
+      "id": 66,
+      "slug": null,
+      "name": "Monster Energy Juice Mango Loco Monster Energy Juice Mango Loco",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_257_IMG-1293-20200331033503.jpg",
+      "sizes": [],
+      "price": 3
+    },
+    {
+      "id": 62,
+      "slug": null,
+      "name": "Monster Energy",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_275_unnamed (5)-20200331062122.jpg",
+      "sizes": [],
+      "price": 3
+    },
+    {
+      "id": 57,
+      "slug": null,
+      "name": "Fanta 1.5l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_204_Frame (20)-20190111115556.png",
+      "sizes": [],
+      "price": 3.5
+    },
+    {
+      "id": 58,
+      "slug": null,
+      "name": "Sprite 1.5l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_206_Frame (19)-20190111115556.png",
+      "sizes": [],
+      "price": 3.5
+    },
+    {
+      "id": 40,
+      "slug": null,
+      "name": "Coca-Cola 1.5l",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_207_Frame (21)-20190111115556.png",
+      "sizes": [],
+      "price": 3.5
+    },
+    {
+      "id": 47,
+      "slug": "{{ slug }}",
+      "name": "Сок Cido 1l (разные)",
+      "desc": "",
+      "img": "/uploads/resized/thumbnail_184_Frame (6)-20190110052516.png",
+      "sizes": [],
+      "price": 3.5
+    }
+  ]
+}
