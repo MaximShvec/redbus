@@ -5,6 +5,7 @@ import { CartProvider } from './state/cart';
 import { initScroll } from './lib/scroll';
 import { ScrollTrigger } from './lib/gsap';
 import Preloader from './components/Preloader';
+import Ride from './components/Ride';
 import Cursor from './components/Cursor';
 import Nav from './components/Nav';
 import RouteProgress from './components/RouteProgress';
@@ -45,6 +46,7 @@ function Page() {
         {t(copy.skip)}
       </a>
       <Preloader />
+      <Ride />
       <Cursor />
       <Nav />
       <RouteProgress />

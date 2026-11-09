@@ -103,6 +103,82 @@
   padding-bottom: 0.6em;
 }
 
+/* Anchor jump: red curtains, the bus changes stops underneath */
+.ride {
+  position: fixed;
+  inset: 0;
+  z-index: 9550;
+  pointer-events: none;
+  color: var(--cream);
+}
+.ride.is-on {
+  pointer-events: all;
+  touch-action: none;
+}
+.ride__panel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50.5%;
+  background: var(--red);
+  will-change: transform;
+}
+.ride__panel--top {
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 var(--gutter) clamp(36px, 6vh, 72px);
+  transform: translateY(-100%);
+}
+.ride__panel--bottom {
+  bottom: 0;
+  transform: translateY(100%);
+}
+.ride__card {
+  text-align: center;
+}
+.ride__kicker {
+  margin: 0 0 8px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(0.85rem, 1.4vw, 1.05rem);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--butter);
+}
+.ride__name {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(3.2rem, 9vw, 7.4rem);
+  line-height: 0.88;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.ride__road {
+  position: relative;
+  width: min(880px, calc(100% - 2 * var(--gutter)));
+  height: 108px;
+  margin: 10px auto 0;
+}
+.ride__bus {
+  position: absolute;
+  left: 0;
+  bottom: 14px;
+  width: clamp(118px, 18vw, 176px);
+  will-change: transform;
+}
+.ride__dashes {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  height: 5px;
+  border-radius: 5px;
+  background: repeating-linear-gradient(90deg, var(--butter) 0 16px, transparent 16px 30px);
+}
+
 /* =========================================================
    Navigation
    ========================================================= */
@@ -185,13 +261,13 @@
   background: rgba(255, 243, 225, 0.14);
 }
 .lang button {
-  min-width: 36px;
-  height: 32px;
-  padding: 0 8px;
+  min-width: 42px;
+  height: 40px;
+  padding: 0 10px;
   border-radius: 999px;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.66rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   transition: background 0.25s, color 0.25s;
@@ -207,13 +283,13 @@
   display: none;
   align-items: center;
   gap: 8px;
-  height: 44px;
+  height: 52px;
   padding: 0 18px;
   border-radius: 999px;
   border: 1.5px solid rgba(255, 243, 225, 0.45);
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.78rem;
+  font-size: 0.95rem;
   letter-spacing: 0.02em;
   transition: background 0.25s, color 0.25s;
 }
@@ -226,14 +302,14 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  height: 44px;
-  padding: 0 8px 0 16px;
+  height: 52px;
+  padding: 0 10px 0 18px;
   border-radius: 999px;
   background: var(--butter);
   color: var(--ink);
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.74rem;
+  font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
@@ -262,8 +338,8 @@
 .nav__burger {
   display: grid;
   place-items: center;
-  width: 44px;
-  height: 44px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   background: var(--cream);
   color: var(--ink);
@@ -538,9 +614,9 @@
   z-index: 1;
   font-size: clamp(2.6rem, 11.5vw, 11rem);
   /* static font (no overlapping contours) + open spacing => a clean single-line outline */
-  font-family: 'Unbounded', var(--font-display);
+  font-family: 'Rubik Variable', var(--font-display);
   font-weight: 800;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.01em;
 }
 /* outline = (glyphs grown by N px) minus (glyphs): no inner contour overlaps, unlike -webkit-text-stroke */
 .hero__line--1 .hero__word {
@@ -551,7 +627,7 @@
   bottom: 0;
   z-index: 3;
   font-size: min(19vw, 27vh);
-  letter-spacing: -0.05em;
+  letter-spacing: -0.03em;
   text-shadow: 0 10px 0 rgba(20, 9, 10, 0.22);
 }
 .hero__mask {

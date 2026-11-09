@@ -41,7 +41,7 @@ export function BusSvg({
       <path d="M6 56H240" stroke={ink} strokeWidth="4" />
       {/* roof sign */}
       <rect x="64" y="-2" width="78" height="16" rx="6" fill={ink} />
-      <text x="103" y="10.5" fontSize="10.5" fontWeight="800" textAnchor="middle" fill={glass} letterSpacing="2.4" fontFamily="Unbounded Variable, sans-serif">
+      <text x="103" y="10.5" fontSize="10.5" fontWeight="800" textAnchor="middle" fill={glass} letterSpacing="2.4" fontFamily="Rubik Variable, sans-serif">
         {label}
       </text>
       {/* upper windows */}
@@ -93,7 +93,7 @@ export function RingText({ text, className }: { text: string; className?: string
       <defs>
         <path id={id} d="M100 100 m-78 0 a78 78 0 1 1 156 0 a78 78 0 1 1 -156 0" />
       </defs>
-      <text fontFamily="Unbounded Variable, sans-serif" fontWeight="700" fontSize="15.5" letterSpacing="3.2" fill="currentColor">
+      <text fontFamily="Rubik Variable, sans-serif" fontWeight="700" fontSize="15.5" letterSpacing="3.2" fill="currentColor">
         <textPath href={`#${id}`}>{text}</textPath>
       </text>
     </svg>

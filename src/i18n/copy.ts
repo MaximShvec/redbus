@@ -18,6 +18,11 @@ export const copy = {
     menuClose: { ru: 'Закрыть меню', lv: 'Aizvērt izvēlni', en: 'Close menu' },
   },
 
+  ride: {
+    next: { ru: 'Следующая остановка', lv: 'Nākamā pietura', en: 'Next stop' },
+    home: { ru: 'Начало маршрута', lv: 'Maršruta sākums', en: 'Start of the route' },
+  },
+
   hero: {
     eyebrow: { ru: 'Юрмала · Рига · с 2008 года', lv: 'Jūrmala · Rīga · kopš 2008. gada', en: 'Jūrmala · Riga · since 2008' },
     sub: {
