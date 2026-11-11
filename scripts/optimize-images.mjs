@@ -80,8 +80,12 @@ await write(
   sharp(path.join(raw, 'orig-terrace.png')).resize({ width: 2400 }).webp({ quality: 78 }),
   path.join(out, 'terrace-night.webp'),
 );
+// wide band of the real "Hot pork" photo — the stock cheese-pull looked grey in this crop
 await write(
-  sharp(path.join(raw, 'orig-cheese.jpg')).resize({ width: 1600, withoutEnlargement: true }).webp({ quality: 80 }),
+  sharp(path.join(raw, 'pizza-26-orig.jpg'))
+    .extract({ left: 180, top: 250, width: 1640, height: 780 })
+    .resize({ width: 1800 })
+    .webp({ quality: 82 }),
   path.join(out, 'cheese-strip.webp'),
 );
 

@@ -3,7 +3,7 @@ import { useLang } from '../i18n';
 import { copy } from '../i18n/copy';
 import { gsap, useGSAP, reducedMotion } from '../lib/gsap';
 
-/** Full-bleed cheese-pull photo with parallax and giant outlined type. */
+/** Full-bleed photo of the real Hot pork pizza, with parallax and giant type. */
 export default function Strip() {
   const { t } = useLang();
   const root = useRef<HTMLElement>(null);
